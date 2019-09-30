@@ -13,5 +13,5 @@
 ## Define MVP (Minimum Valuable Product)
   predicting the bounding volumes of the most significant objects in the scene.
   
-##Technology may used
+## Technology may used
   Opencv, Machine Learning, Python.
