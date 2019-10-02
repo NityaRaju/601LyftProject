@@ -45,15 +45,21 @@ There is alot of proprietary research and development being conducted on all the
 However, if we look at the final system into which our algorithm will be implemented- we can see more clearly the differences in driving quality. In the current market, Waymo has begun autonomous ride-sharing in Arizona whereas Uber has had a major setback due to a fatal collision with one of its cars. Lyft has purchased Blue Vision, a 3D mapping company, and partnered with Aptiv to bring self-driving cars to Las Vegas. 
 
 ### 2.2 Patent Analysis
-By checking lots of patents, like google autopilot patents and huawei lidar detection system we can find out that the image and lidar file process is the core of the whole autopilot system. And all of these companies choose machine learning to their tool to process. And in the patent of Lyft named Identifying Objects for Display in a Situational-Awareness View of an Autonomous-Vehicle Environment mentioned that Lyft used both video camera and lidar as the eyes of autonomous system. Also, in this patent it mentioned that: when a possible object is detected, machine learning is applied to correlate the sensed possible object data to a specific object and a set of object attributes. It revealed how Lyft try to process the data from the sensors. And this is going to be our main work in this project. We need to build a solid machine learning model to process the data accurately and quickly enough.  
-Solid object detection system using laser and radar sensor fusion
-https://patents.google.com/patent/US9097800B1/en
-Object detection using radar and machine learning
-https://patents.google.com/patent/WO2017181643A1/en
-Evaluating and Presenting Pick-Up and Drop-Off Locations in a Situational-Awareness View of an Autonomous Vehicle
-https://patents.google.com/patent/US20180136656A1/en?oq=20180136656
-Identifying Objects for Display in a Situational-Awareness View of an Autonomous-Vehicle Environment
-https://patents.google.com/patent/US20180136000A1/en?oq=20180136000
+  By checking lots of patents, like google autopilot patents and huawei lidar detection system we can find out that the image and lidar file process is the core of the whole autopilot system. And all of these companies choose machine learning to their tool to process. And in the patent of Lyft named Identifying Objects for Display in a Situational-Awareness View of an Autonomous-Vehicle Environment mentioned that Lyft used both video camera and lidar as the eyes of autonomous system. Also, in this patent it mentioned that: when a possible object is detected, machine learning is applied to correlate the sensed possible object data to a specific object and a set of object attributes. It revealed how Lyft try to process the data from the sensors. And this is going to be our main work in this project.
+  
+  We need to build a solid machine learning model to process the data accurately and quickly enough.
+  
+  Solid object detection system using laser and radar sensor fusion
+  https://patents.google.com/patent/US9097800B1/en
+  
+  Object detection using radar and machine learning
+  https://patents.google.com/patent/WO2017181643A1/en
+  
+  Evaluating and Presenting Pick-Up and Drop-Off Locations in a Situational-Awareness View of an Autonomous Vehicle
+  https://patents.google.com/patent/US20180136656A1/en?oq=20180136656
+  
+  Identifying Objects for Display in a Situational-Awareness View of an Autonomous-Vehicle Environment
+  https://patents.google.com/patent/US20180136000A1/en?oq=20180136000
 
 # 3.System design
 ### 3.1 Technoloy we use
