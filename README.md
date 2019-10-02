@@ -75,3 +75,18 @@
    Open cv provides us with lots of functions such as Kalman filter、Canny、Roberts、Sobel、Prewitt operator and so on. It is an open source library so we can use it directly. We choose python because we don’t need to take care of the data type(int、long int）and the allocation of memory. During imagine processing we need to use many large matrices to store imagine, it is difficult to manage the memory.
 ### 3.2 Components map
 ![Image description](https://github.com/NityaRaju/601LyftProject/blob/master/Technologymap.JPG)
+### 3.3 Test program
+      import cv2 as cv
+      import numpy as np
+      import math
+
+      imgBus=cv.imread("Bus.jpg",1)
+      imgDes=cv.imread("Desktop.jpg",1)
+      cv.imshow("111",imgBus)
+      imgtest=cv.imread("Bus.jpg",0)
+      imgtest=cv.Canny(imgtest,30,200)
+      contours, hierarchy=cv.findContours(imgtest,cv.RETR_TREE,cv.CHAIN_APPROX_SIMPLE)
+      cv.drawContours(imgtest,contours,0,(0,0,255),3)
+      cv.imshow("222",imgtest)
+      cv.waitKey()
+      cv.destroyAllWindows()
