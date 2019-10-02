@@ -24,3 +24,4 @@
 
 ## Technology may used
   Opencv, Machine Learning, Python.
+![image of tech](https://github.com/NityaRaju/601LyftProject/Technology map.JPG)
