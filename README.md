@@ -65,7 +65,7 @@
 # 3.System design
 ### 3.1 Technoloy we use
    We will use 
-   opencv libraries 、 
+   opencv libraries 
    machine learning(tensorflow)、
    point cloud processing、
    triangular、
@@ -74,4 +74,4 @@
   
    Open cv provides us with lots of functions such as Kalman filter、Canny operator and so on. It is an open source library so we can use it directly. We choose python because we don’t need to take care of the data type(int、long int）and the allocation of memory. During imagine processing we need to use many large matrices to store imagine, it is difficult to manage the memory.
 ### 3.2 Components map
-[image of tech](https://github.com/NityaRaju/601LyftProject/blob/master/Technologymap.JPG)
+ ！[image of tech](https://github.com/NityaRaju/601LyftProject/blob/master/Technologymap.JPG)
