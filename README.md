@@ -90,5 +90,6 @@
       cv.imshow("222",imgtest)
       cv.waitKey()
       cv.destroyAllWindows()
- ![Image description](https://github.com/NityaRaju/601LyftProject/blob/master/Test%20bus0.JPG)
+ ![Image description](https://github.com/NityaRaju/601LyftProject/blob/master/Test%20bus0.JPG)t
+                  (I photo this picture with my phone in China)
  ![Image description](https://github.com/NityaRaju/601LyftProject/blob/master/Test%20bus1.JPG)
