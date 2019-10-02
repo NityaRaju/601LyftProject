@@ -7,13 +7,21 @@
   This product in particular is being developed for a specific client/target user- Lyft. Apart from Lyft, any company which is looking to manufacture, sell or use automated self-driving cars, such as Tesla, Uber, Toyota etc. would benefit from this product. 
 ### User Stories
   3D object detection over sematic maps is used by many different people in different fields. 
+  
   I, Lyft, would like a software to improve autonomous driving capabilities by reducing the number of accidents.
+  
   I, Lyft, would like to use only the raw camera sensor inputs in order to facilitate autonomous driving, without any other sensors. 
-  I, the car manufacturer, would like a software that can be used in a range of autonomous vehicles, with little modifications. 
+  
+  I, the car manufacturer, would like a software that can be used in a range of autonomous vehicles, with little modifications.
+  
   I, Lyft, would like a software that can differentiate between different types of vehicles, living and non living objects, and traffic     signs. 
+  
   I, Lyft, would like a software that can accurately tell me the bounding volume, center, width, length and height of a given object in     the picture. 
+  
   I, Lyft, would like a software that can accurately classify all the given objects in a picture into different categories. 
+  
   I, a robotics developer, would like a software that can be used by a robot to build a semantically annotated 3D map in real time, to       improve robot-human interactions
+  
   I, the researcher, would like a software that can automatically annotate/label a picture so I may classify objects of interest to me. 
 
   
