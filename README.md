@@ -93,3 +93,8 @@
  ![Image description](https://github.com/NityaRaju/601LyftProject/blob/master/Test%20bus0.JPG)t
                   (I photo this picture with my phone in China)
  ![Image description](https://github.com/NityaRaju/601LyftProject/blob/master/Test%20bus1.JPG)
+ 
+ 
+ ### Final Poster 
+ <img src="https://github.com/NityaRaju/601LyftProject/blob/master/A1_08.pdf">
+ 
