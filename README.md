@@ -96,5 +96,5 @@
  
  
  ### Final Poster 
- <img src="https://github.com/NityaRaju/601LyftProject/blob/master/A1_08.pdf">
+ <img src="https://github.com/NityaRaju/601LyftProject/blob/master/Poster.png">
  
