@@ -92,8 +92,8 @@
       cv.imshow("222",imgtest)
       cv.waitKey()
       cv.destroyAllWindows()
- ![Image description](https://github.com/NityaRaju/601LyftProject/blob/master/Test%20bus0.JPG)t
-                  (I photo this picture with my phone in China)
+ ![Image description](https://github.com/NityaRaju/601LyftProject/blob/master/Test%20bus0.JPG)
+                  (I took this picture with my phone in China)
  ![Image description](https://github.com/NityaRaju/601LyftProject/blob/master/Test%20bus1.JPG)
  
  # 4.Results
@@ -110,6 +110,6 @@
  <img src=" ">
  
  
- ### Final Poster 
+ # 5.Final Poster 
  <img src="https://github.com/NityaRaju/601LyftProject/blob/master/Poster.png">
  
