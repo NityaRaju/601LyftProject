@@ -1,5 +1,5 @@
 # 601LyftProject
-# Product Definition
+
 ### 1. Product Mission
    To improve the quality of life by optimizing self-driving technology, which can lead to fewer accidents and easier commutes. 3D object detection over semantic maps is a primary problem in the development of autonomous driving technologies, so the product mission is to use machine learning techniques to improve this object detection. We do this by predicting the bounding volume of all the objects in a given scene/picture and classifying them into different classes. 
 
@@ -63,12 +63,12 @@
    https://patents.google.com/patent/US20180136000A1/en?oq=20180136000
 
 # 3.System design
-### 3.1 Technoloy we use
+### 3.1 Technologies Used
    We will use 
-   opencv libraries 
-   machine learning(tensorflow)、
+   Opencv libraries 
+   Machine learning(tensorflow) algorithms、
    point cloud processing、
-   triangular、
+   YOLO implementation、
    3D rebuild  and  
    camera calibration.
   
@@ -95,6 +95,19 @@
  ![Image description](https://github.com/NityaRaju/601LyftProject/blob/master/Test%20bus0.JPG)t
                   (I photo this picture with my phone in China)
  ![Image description](https://github.com/NityaRaju/601LyftProject/blob/master/Test%20bus1.JPG)
+ 
+ # 4.Results
+ ### 4.1 Preliminary results
+ Before working on the huge Lyft dataset, we tested our algorithms for object classification on images we took of ourselves. For this initial testibg, we used teh COCO(common objects in context) dataset to train our neural network so that it was able to classify objects other than those commonly found on the street. 
+ 
+ <img src=" ">
+ 
+ Our team photo!
+ 
+ ### 4.2 Final Results
+ We then worked on actual images taken by a camera in the dashboard for a self-driving car. The Lyft training data was used in conjunction with OpenCV and YOLO implementation in order to classify all the 3D objects in a certain image, including the probablility that the clasification is correct. This can help the car make decisions later on. 
+ 
+ <img src=" ">
  
  
  ### Final Poster 
