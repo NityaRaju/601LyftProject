@@ -100,15 +100,16 @@
  ### 4.1 Preliminary results
  Before working on the huge Lyft dataset, we tested our algorithms for object classification on images we took of ourselves. For this initial testibg, we used teh COCO(common objects in context) dataset to train our neural network so that it was able to classify objects other than those commonly found on the street. 
  
- <img src=" ">
+ <img src="https://github.com/NityaRaju/601LyftProject/blob/master/Screen%20Shot%202019-12-12%20at%2012.11.42%20PM.png ">
  
- Our team photo!
+ Our team photo!The output images are feature maps.
  
  ### 4.2 Final Results
  We then worked on actual images taken by a camera in the dashboard for a self-driving car. The Lyft training data was used in conjunction with OpenCV and YOLO implementation in order to classify all the 3D objects in a certain image, including the probablility that the clasification is correct. This can help the car make decisions later on. 
  
- <img src=" ">
+ <img src="https://github.com/NityaRaju/601LyftProject/blob/master/Screen%20Shot%202019-12-12%20at%2012.22.14%20PM.png ">
  
+ <img src="https://github.com/NityaRaju/601LyftProject/blob/master/WechatIMG17.png">
  
  # 5.Final Poster 
  <img src="https://github.com/NityaRaju/601LyftProject/blob/master/Poster.png">
